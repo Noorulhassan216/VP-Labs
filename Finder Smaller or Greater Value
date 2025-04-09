@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+public class Addition_Of_Integers
+	{
+		public static void Main(string[] args)
+		{
+			string x,y;
+			Console.Write("X = ");            //For x input prompt
+			x=Console.ReadLine();             //For x input
+			Console.Write("Y = ");            //For y input prompt
+			y=Console.ReadLine();             //For y input
+			int a=int.Parse(x);               //for conversion from string to int
+			int b=int.Parse(y);               //for conversion from string to int
+			if(a>b)                           //Statement Starts
+			{
+			    Console.WriteLine("X is Greater Than Y");
+			}
+			else
+			{
+			    Console.WriteLine("Y is Greater Than X");
+			}
+			}
+	}
