@@ -1,0 +1,15 @@
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int Rem, Qou=50535;
+        while(Qou>0)
+        {
+        Rem=Qou%10;
+        Qou=Qou/10;
+        Console.WriteLine("Remainder is "+Rem);
+        Console.WriteLine("Qoutient is "+Qou);
+        } 
+    }
+}
